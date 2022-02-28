@@ -1,0 +1,76 @@
+body{
+  font-size: 18px;
+  margin: 0;
+}
+
+main {
+  margin: 0px 200px;
+}
+.banner {
+  background-color: #800303;
+  width: 100%;
+  height: 200px;
+  background-image: url(./assets/flames.png);
+  background-size: contain;
+ 
+}
+
+#title img {
+  width: 40%;
+ position: absolute;
+ bottom: -15px;
+}
+
+#title {
+  position: relative;
+}
+
+#head-img img {
+  width: 49%;
+}
+
+.author {
+  font-size: 0.8rem;
+}
+
+.testo-opaco { 
+  opacity: 0.5;
+ }
+
+ .highlight {
+  background-color: yellow;
+}
+
+div > span {
+  font-size: 0.7rem;
+}
+
+#booleaner {
+  color: #800303;
+}
+
+thead {
+  background-color: #c24400;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.table {
+  background-color: #f27742;
+}
+
+thead th:nth-child(1) {
+  width: 25%;
+}
+
+thead th:nth-child(2) {
+  width: 25%;
+}
+
+thead th:nth-child(3) {
+  width: 50%;
+}
+
+.foot-img img {
+  width: 30%;
+}
